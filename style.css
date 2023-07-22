@@ -1,0 +1,96 @@
+#link {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+a[href="image-search.html"] {
+  margin-right: 10px;
+}
+
+#search-box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+#advanced-search-box {
+  margin: 30px 10px;
+}
+
+.search-bar {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.advanced-search-bar {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  margin: 10px auto;
+  border-radius: 2px;
+  border: 0px;
+}
+
+.button:hover {
+  padding: 5px 10px;
+  margin: 10px auto;
+  border-radius: 2px;
+  border: groove;
+  cursor: pointer;
+}
+
+#advanced-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#advanced-label {
+  display: flex;
+  flex-direction: column;
+}
+
+#advanced-search {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+.advanced-search-label {
+  margin-bottom: 14px;
+}
+
+.advanced-button {
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  align-content: flex-end;
+  border-radius: 2px;
+  font-weight: bold;
+  text-align: right;
+  border: 0px;
+}
+
+.advanced-button:hover {
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  align-content: flex-end;
+  border-radius: 2px;
+  font-weight: bold;
+  text-align: right;
+  border: groove;
+  cursor: pointer;
+}
+
+img {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+}
